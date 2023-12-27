@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff6699;
+    color: #fff;
+    font-size: 28px;
+    border-radius: 5px;
+  }
+  
+  #todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  label {
+    flex-grow: 1;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+    
